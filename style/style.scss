@@ -7,10 +7,11 @@
 
 
 // importing header from style header.scss   
-@import "./_header";
+ @import './header';
 
 .contact{
-    @include flexCenter();
+    @include flexCenter(row,red);
+    // background-color: $buttoncolor;
 }
 .contact button {
     background-color: $buttoncolor;

@@ -1,18 +1,18 @@
 // creating function for scss
-// we can also pass a parameter to a function in scss to change the functionality of different styles
+// we can also pass a parameter to a function in scss to change the functionality of different styles 
 // for example function (parameter) we can changed such parameter by calling the parameter in style secition to change the style
 // we can used a keywoard @include to call the function in style section
-@mixin flexCenter {
+@mixin flexCenter($direction, $backgroundColor) {
     display: flex;
     justify-content: center;
     align-items: center;
-    // height: 100vh;
-    // flex-direction: $direction;
-    // background-color: $background;
+    height: 100vh;
+    flex-direction: $direction;
+    background-color: $backgroundColor;
 }
 header {
-    @include flexCenter();
-    background-color: $primaryColor;
+    @include flexCenter(column, $primaryColor);
+    // background-color: $primaryColor;
     // inside header we can style a button 
     button {
         background-color: $buttoncolor;
