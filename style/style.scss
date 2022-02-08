@@ -1,0 +1,26 @@
+// creating variable for scss
+
+    $primaryColor: rgb(43, 199, 199);
+    $textColor: black;
+    $buttoncolor: #e02c71;
+    $white: #fff;
+
+
+// importing header from style header.scss   
+@import "./_header";
+
+.contact{
+    @include flexCenter();
+}
+.contact button {
+    background-color: $buttoncolor;
+    color: $white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+}
