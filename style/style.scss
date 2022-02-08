@@ -1,17 +1,16 @@
 // creating variable for scss
 
-    $primaryColor: rgb(43, 199, 199);
-    $textColor: black;
-    $buttoncolor: #e02c71;
-    $white: #fff;
+ 
 
-
+// importing variables
+@import './variables';
 // importing header from style header.scss   
  @import './header';
 
 .contact{
-    @include flexCenter(row,red);
+    @include flexCenter(row,rgb(40, 77, 179));
     // background-color: $buttoncolor;
+    color: $white;
 }
 .contact button {
     background-color: $buttoncolor;
