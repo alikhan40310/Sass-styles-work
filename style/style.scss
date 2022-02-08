@@ -11,6 +11,7 @@
     @include flexCenter(row,rgb(40, 77, 179));
     // background-color: $buttoncolor;
     color: $white;
+    text-transform: capitalize;
 }
 .contact button {
     background-color: $buttoncolor;
@@ -23,4 +24,8 @@
     font-weight: 500;
     text-transform: capitalize;
     transition: all 0.3s ease-in-out;
+    &:hover {
+        background-color:$primaryColor ;
+        color: $white;
+    }
 }

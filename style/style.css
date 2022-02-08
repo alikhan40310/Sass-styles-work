@@ -18,7 +18,7 @@ header {
 
 header button {
   background-color: #e02c71;
-  color: black;
+  color: #fff;
   border: none;
   padding: 10px;
   border-radius: 5px;
@@ -31,7 +31,7 @@ header button {
 }
 
 header button:hover {
-  background-color: #e02c71;
+  background-color: #284db3;
   color: #fff;
 }
 
@@ -52,6 +52,7 @@ header button:hover {
           flex-direction: row;
   background-color: #284db3;
   color: #fff;
+  text-transform: capitalize;
 }
 
 .contact button {
@@ -66,5 +67,10 @@ header button:hover {
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+
+.contact button:hover {
+  background-color: #2bc7c7;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */

@@ -17,7 +17,7 @@ header {
     // inside header we can style a button 
     button {
         background-color: $buttoncolor;
-        color: $textColor;
+        color: $white;
         border: none;
         padding: 10px;
         border-radius: 5px;
@@ -28,7 +28,7 @@ header {
         transition: all 0.3s ease-in-out;
         // & operator used for hover focus before & more.
         &:hover {
-            background-color:$buttoncolor ;
+            background-color:$blue ;
             color: $white;
         }
     }
